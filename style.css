@@ -54,6 +54,7 @@ a.icon {
 }
 
 .Content h1 {
+    font-family: Crete Round, sans-serif;
     font-weight: 400;
     font-size: 56px;
     line-height: 64px;
@@ -79,9 +80,10 @@ a.icon {
 }
 
 .Content p {
+    font-family: Poppins, sans-serif;
     display: flex;
-    font-style: normal;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     color: #fff;
