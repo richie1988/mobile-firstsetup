@@ -10,7 +10,7 @@ body {
 }
 
 .Top-nav {
-  width: 375px;
+  width: 100%;
   overflow: hidden;
   background-color: hsl(20, 3%, 23%);
   position: relative;
@@ -31,7 +31,7 @@ a.icon {
 
 .mobile-Container {
   height: 590px;
-  width: 375px;
+  width: 100%;
   border-radius: 0;
   background-color: hsl(20, 6%, 10%);
   background-image: url("imagez/illustration\ \(1\).svg");
@@ -133,8 +133,14 @@ a.icon {
   margin-bottom: 80px;
 }
 
-.myphoto {
+.right-block {
   margin: auto;
+}
+
+.myphoto {
+  padding: 20px;
+  width: 100%;
+  height: auto;
 }
 
 .my-article {
@@ -151,7 +157,6 @@ a.icon {
   font-weight: 400;
   line-height: 44px;
   color: #091e42;
-  padding-top: 24px;
   margin-bottom: 12px;
   margin-left: -5.5rem;
   height: auto;
@@ -554,7 +559,7 @@ li.b4 {
 }
 
 .underline-two {
-  width: 327px;
+  width: 100%;
   border-radius: 0;
   left: 0;
   margin-top: 209px;
@@ -724,4 +729,24 @@ footer {
   gap: 22px;
   margin: auto;
   padding-top: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .right-block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .myphoto {
+    margin-left: 160px;
+    padding: 0;
+  }
+
+  .my-article h2 {
+    margin-right: 17rem;
+  }
+
+  .my-article p {
+    width: 70%;
+  }
 }
