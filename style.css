@@ -645,7 +645,6 @@ form {
   height: auto;
   width: auto;
   left: -1px;
-  top: 5887px;
   border-radius: 0;
 }
 
@@ -688,13 +687,7 @@ input {
 }
 
 .submit-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
-  gap: 10px;
-  width: 131px;
-  height: 48px;
   background: hsl(25, 100%, 50%);
   flex: none;
   justify-content: center;
@@ -748,5 +741,59 @@ footer {
 
   .my-article p {
     width: 70%;
+  }
+
+  .about-section {
+    padding-bottom: 130px;
+  }
+
+  .skills-section ul {
+    float: left;
+    padding-left: 140px;
+  }
+
+  .Language {
+    background-image: url("imagez/Rectangle\ 55.png");
+    background-repeat: no-repeat;
+    background-position: 33%;
+    background-position-y: 15%;
+  }
+
+  .Frameworks {
+    background-image: url("imagez/Rectangle\ 56.png");
+    background-repeat: no-repeat;
+    background-position: 30%;
+    background-position-y: 13%;
+  }
+
+  .skills {
+    background-image: url("imagez/Rectangle\ 57.png");
+    background-repeat: no-repeat;
+    background-position: 45%;
+    background-position-y: 13%;
+  }
+
+  .form-section {
+    display: inline-flex;
+    padding: 130px 0;
+    align-items: flex-start;
+    gap: 24px;
+    margin-left: 135px;
+  }
+
+  .form-h2 {
+    padding-top: 0;
+  }
+
+  .input-section {
+    display: flex;
+  }
+
+  .textarea {
+    height: 114px;
+    width: 460px;
+    border: none;
+    background: hsl(15, 33%, 98%);
+    padding: 12px;
   }
 }
