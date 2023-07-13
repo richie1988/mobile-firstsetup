@@ -14,14 +14,30 @@
 
 <body>
     <header class="Top-nav">
-        <a><img src="imagez/My Logo.png" alt="MyLogo"></a>
+        <a><img class="My-logo" src="imagez/My Logo.png" alt="MyLogo"></a>
         <nav>
-            <a class="icon"><img src="imagez/Icon - Menu.svg">
-            </a>
+            <ul class="nav-section">
+                <li>
+                    <a class="item" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="item" href="#About">About</a>
+                </li>
+                <li>
+                    <a class="item" href="#Contact">Contact</a>
+                </li>
+                <li>
+                    <a class="item" href="#email"><img src="imagez/Icon - Mail.svg"></a>
+                </li>
+                <li>
+                    <a class="icon" href="#"><img src="imagez/Icon - Menu.svg">
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
-        <div class="mobile-Container">
+        <div class="mobile-Container" id="portfolio">
             <div class="Content">
                 <h1>Hey There.I’m Richard.</h1>
                 <h3>I'm a Software Developer</h3>
@@ -38,10 +54,10 @@
             </section>
         </div>
         <div class="Featured-info">
-            <h1>My Recent Works</h1>
-            <hr class="title">
-            <section class="right-block">
-                <image class="myphoto" src="imagez/Img Placeholder.png" />
+            <h1 class="hr-line">My Recent Works</h1>
+            <hr>
+            <div class="right-block">
+                <image class="myphoto" src="imagez/Img Placeholder.png" alt=" placeholder-screenshot-image" />
 
                 <article class="my-article">
                     <h2>Multi-Post Stories</h2>
@@ -52,12 +68,12 @@
                         <li class="b3 ">Bootstrap</li>
                         <li class="b4 ">Ruby</li>
                     </ul>
-                    <button class="project-btn1 ">See project</button>
+                    <button class="project-btn1">See project</button>
                 </article>
-            </section>
+            </div>
         </div>
         <div class="card-container ">
-            <div class="first-card ">
+            <div class="card" id="first-card">
                 <article>
                     <h2>Profesional Art Printing Data</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
@@ -71,12 +87,12 @@
                 <a class="see-projectbtn ">See project</a>
             </div>
 
-            <div class="second-card ">
+            <div class="card" id="second-card">
                 <article>
-                    <h2>Profesional Art Printing Data</h2>
+                    <h2>Data Dashboard Healthcare</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
 
-                    <ul class="Skills-links ">
+                    <ul class="Skills-links">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
@@ -85,12 +101,12 @@
                 <a class="see-projectbtn ">See project</a>
             </div>
 
-            <div class="third-card ">
+            <div class="card" id="third-card">
                 <article>
-                    <h2>Profesional Art Printing Data</h2>
+                    <h2>Website Portfolio </h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
 
-                    <ul class="Skills-links ">
+                    <ul class="Skills-links">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
@@ -99,12 +115,12 @@
                 <a class="see-projectbtn ">See project</a>
             </div>
 
-            <div class="fouth-card ">
+            <div class="card " id="fouth-card">
                 <article>
-                    <h2>Profesional Art Printing Data</h2>
+                    <h2>Profesional Art Printing Data More</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
 
-                    <ul class=" Skills-links ">
+                    <ul class="Skills-links">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
@@ -113,44 +129,44 @@
                 <a class="see-projectbtn ">See project</a>
             </div>
 
-            <div class="fifth-card ">
+            <div class="card" id="fifth-card">
                 <article>
-                    <h2>Profesional Art Printing Data</h2>
+                    <h2>Data Dashboard Healthcare </h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-                    <ul class="Skills-links ">
+                    <ul class="Skills-links">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <a class="see-projectbtn ">See project</a>
+                <a class="see-projectbtn">See project</a>
             </div>
 
-            <div class="six-card ">
+            <div class="card" id="six-card">
                 <article>
-                    <h2>Profesional Art Printing Data</h2>
+                    <h2>Website Portfolio</h2>
                     <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
 
-                    <ul class="Skills-links ">
+                    <ul class="Skills-links">
                         <li class="b5 ">HTML</li>
                         <li class="b6 ">Bootstrap</li>
                         <li class="b7 ">Ruby</li>
                     </ul>
                 </article>
-                <a class="see-projectbtn ">See project</a>
+                <a class="see-projectbtn">See project</a>
             </div>
         </div>
-        <div class="about-section">
-            <article class="intro ">
+        <div class="about-section" id="About">
+            <article>
                 <h3>About me</h3>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
                 </p>
                 <button class="resume-btn ">Get my resume</button>
             </article>
-            <hr class="underline-two">
-            <section class="skills-section">
+            <hr class="underline-two ">
+            <section class="skills-section ">
 
-                <ul class="Language">
+                <ul class="Language ">
                     <li>
                         <h2>Language</h2>
                     </li>
@@ -159,7 +175,7 @@
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul>
-                <ul class="Frameworks">
+                <ul class="Frameworks ">
                     <li>
                         <h2>Frameworks</h2>
                     </li>
@@ -169,7 +185,7 @@
                     <li>Capybara</li>
                     <li>Selenium</li>
                 </ul>
-                <ul class="skills">
+                <ul class="skills ">
                     <li>
                         <h2>Skills</h2>
                     </li>
@@ -181,19 +197,16 @@
                 </ul>
             </section>
         </div>
-        <div class="form-section">
-            <div class="form-h2">
-                <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-            </div>
-            <form action="https://formspree.io/f/mrgvjnke " method="post" id="form">
-
-                <section class="input-section ">
-                    <input class="surname" type="text " name="Surname " placeholder=" Last name " maxlength="30 " required>
+        <div class="form-section" id="Contact">
+            <h2 class="form-h2 ">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+            <form action="https://formspree.io/f/mrgvjnke " method="post " id="form ">
+                <section class="names-section ">
+                    <input class="Full-name " maxlength="30 " type="text " name="Full name " placeholder="Full name " required>
+                    <input class="surname " type="text " name="Surname " placeholder=" Last name " maxlength="30 " required>
                 </section>
-                <input class="Full-name " maxlength="30" type="text " name="Full name " placeholder="Full name " required>
-                <input class="e-mail " type="email" name="email address " placeholder="Email address " required>
-                <textarea class="textarea " name="textarea " name="subject " placeholder="Write me something... " maxlength="500 " required></textarea>
-                <button class="submit-btn " type="submit">Get in touch</button>
+                <input id="email" class=" e-mail " type="email " name="email address " placeholder="Email address " required>
+                <textarea class="textarea " name="textarea " name="subject" placeholder="Write me something... " maxlength="500 " required></textarea>
+                <button class="submit-btn" type="submit">Get in touch</button>
             </form>
         </div>
         <footer>
