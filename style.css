@@ -9,18 +9,19 @@ body {
   height: auto;
 }
 
-.Top-nav {
+.header {
   width: 100%;
-  background-color: hsl(15, 91%, 47%);
+  background: hsl(0, 2%, 24%);
   position: relative;
   margin: auto;
+  height: 72px;
 }
 
 .item {
   display: none;
 }
 
-.Top-nav img {
+.header img {
   display: flex;
   float: left;
   padding: 16px;
