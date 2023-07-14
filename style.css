@@ -11,8 +11,8 @@ body {
 
 .Top-nav {
     width: 100%;
-    overflow: hidden;
-    background-color: hsl(20, 3%, 23%);
+    background-color: hsl(15, 91%, 47%);
+    position: relative;
     margin: auto;
 }
 
