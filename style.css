@@ -695,6 +695,18 @@ footer {
     margin-left: 99px;
   }
 
+    .My-logo:hover {
+      background-color: hsl(25, 100%, 50%);
+      transition: 400ms ease;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    .item:hover {
+      color: hsl(25, 100%, 50%);
+      transition: 300ms;
+    }
+
   .nav-section {
     float: right;
     display: flex;
