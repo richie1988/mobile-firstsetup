@@ -703,7 +703,7 @@ footer {
     }
 
     .item:hover {
-      color: hsl(25, 100%, 50%);
+      color: hsl(30, 6%, 19%);
       transition: 300ms;
     }
 
