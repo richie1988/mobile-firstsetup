@@ -13,7 +13,6 @@ body {
     width: 100%;
     overflow: hidden;
     background-color: hsl(20, 3%, 23%);
-    position: relative;
     margin: auto;
 }
 
@@ -693,6 +692,16 @@ footer {
 @media only screen and (min-width: 768px) {
     .logo {
         margin-left: 99px;
+    }
+    .logo:hover {
+        background-color: hsl(25, 100%, 50%);
+        transition: 400ms ease;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+    .item:hover {
+        color: hsl(25, 100%, 50%);
+        transition: 300ms;
     }
     .nav-section {
         float: right;
