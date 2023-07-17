@@ -21,12 +21,12 @@ body {
   display: none;
 }
 
+
 .header img {
   display: flex;
   float: left;
   padding: 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 a.icon {
@@ -744,6 +744,26 @@ footer {
     flex-direction: column;
     margin-left: 140px;
   }
+
+
+  .icon {
+    display: none;
+  }
+
+  .mobile-Container {
+    background-image: url("imagez/Illustration-header.png");
+    background-position: 100% 10%;
+    background-position-y: 5%;
+    background-size: 33%;
+  }
+
+  .Content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+  }
+
 
   .Content h1 {
     display: flex;
