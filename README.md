@@ -62,7 +62,8 @@ so that other developer's can find them or see what the have built.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](http://127.0.0.1:5500/index.html)
+- [Live Demo Link](https://richie1988.github.io/deployment.io/
+)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
