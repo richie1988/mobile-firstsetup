@@ -62,7 +62,8 @@ so that other developer's can find them or see what the have built.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](http://127.0.0.1:5500/index.html)
+- [Live Demo Link](https://richie1988.github.io/deployment.io/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +99,6 @@ To run the project, execute the following command:
 npx git install
 git clone
 
-
 ### Run tests
 
 To run tests, run the following command:
@@ -113,7 +113,6 @@ You can deploy this project using:
 .any text editor
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 👥 Authors <a name="Richard Sikaonga"></a>
 
@@ -130,8 +129,6 @@ I would like Thank Microverse Team and my Collabaration partners whom they have 
 - GitHub: [@MPDADDY](https://github.com/MPDADDY)
 - Twitter: [@anoldmwawasi](https://twitter.com/anold_mwawasi)
 - LinkedIn: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi/)
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -9,24 +9,23 @@ body {
   height: auto;
 }
 
-.Top-nav {
+.header {
   width: 100%;
-  overflow: hidden;
-  background-color: hsl(20, 3%, 23%);
+  background: hsl(0, 2%, 24%);
   position: relative;
   margin: auto;
+  height: 72px;
 }
 
 .item {
   display: none;
 }
 
-.Top-nav img {
+.header img {
   display: flex;
   float: left;
-  padding: 16px;
+  padding: 17px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 a.icon {
@@ -691,29 +690,16 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .My-logo {
+  .logo {
     margin-left: 99px;
   }
 
-    .My-logo:hover {
-      background-color: hsl(25, 100%, 50%);
-      transition: 400ms ease;
-      cursor: pointer;
-      border-radius: 8px;
-    }
 
-    .item:hover {
-      color: hsl(24, 58%, 43%);
-      transition: 300ms;
-    }
-
-  .nav-section {
-    float: right;
-    display: flex;
-    margin-right: 40px;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
+  .logo:hover {
+    background-color: hsl(25, 100%, 50%);
+    transition: 400ms ease;
+    cursor: pointer;
+    border-radius: 8px;
   }
 
   .item {
@@ -725,6 +711,20 @@ footer {
     font-weight: 600;
     line-height: 20px;
     text-decoration: none;
+  }
+
+  .item:hover {
+    color: hsl(25, 100%, 50%);
+    transition: 300ms;
+  }
+
+  .nav-section {
+    float: right;
+    display: flex;
+    margin-right: 40px;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
   }
 
   .icon {
